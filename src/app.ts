@@ -74,9 +74,9 @@ form.addEventListener('submit',(e:Event)=>{
 
     let doc: HasFormatter;
     if (type.value ==='invoice'){
-        doc = new Invoice(...values)
+        doc = new Invoice(...values);
     }else {
-        doc = new Payment(...values)
+        doc = new Payment(...values);
     }
 
     list.render(doc,type.value, 'end');

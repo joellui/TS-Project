@@ -11,7 +11,7 @@ export class Payment {
         //this.client = c;
         //this.details = d;
         //this.amount = a;
-    }
+    };
     format() {
         return `${this.recipient} is owed £${this.amount} for ${this.details}`;
     }
